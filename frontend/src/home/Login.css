@@ -1,0 +1,101 @@
+/* Reset default margins and padding */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #003DA5;
+    padding: 1rem;
+    position: fixed; /* Fixes the Navbar at the top of the page */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Styling for the container that holds the form */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the container takes up full screen height */
+    padding-top: 1rem; /* Padding to prevent overlap with the Navbar */
+    color: #fff;
+}
+
+/* Form styling */
+.login-body {
+    width: 375px;
+    padding: 2rem auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s all ease-in;
+    background-color: #ED8B00;
+    color: #fff;
+}
+
+/* Navbar child elements */
+.imgSrc {
+    text-decoration: none;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.navItem:hover {
+    transition: all 0.3s ease-in;
+    background-color: #ED8B00;
+    transform: scale(1.1);
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+

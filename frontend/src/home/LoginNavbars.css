@@ -1,0 +1,83 @@
+/* Navbar styles */
+.admin-navbar,.employee-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #003DA5;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .imgSrc {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .imgSrc h1 {
+    margin-left: 10px;
+  }
+  
+  .admin-navList,.employee-navList {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .admin-navItem,.employee-navItem {
+    margin-left: 20px;
+  }
+  
+  .admin-navLink,.employee-navLink {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: none;
+  }
+  
+  .admin-navLink:hover {
+    background-color: #ED8B00;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ED8B00;
+    color: #fff;
+    list-style: none;
+    padding: 10px;
+    min-width: 150px;
+    z-index: 1;
+  }
+  
+  .dropdownItem {
+    margin-bottom: 10px;
+  }
+  
+  .dropdownLink {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .dropdownLink:hover {
+    color: #003DA5;
+  }
+  
+  .fa-caret-up, .fa-caret-down {
+    margin-left: 5px;
+  }
